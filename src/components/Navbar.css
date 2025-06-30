@@ -1,0 +1,30 @@
+div{
+    background-color: rgb(208, 228, 217);
+}
+.header-p2p{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+
+}
+
+#login-form{
+    position: relative;
+    z-index: 1110;
+}
+#login-bt{
+    position:absolute;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 20px;
+}
+div .search-bar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}

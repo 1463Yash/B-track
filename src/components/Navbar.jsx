@@ -8,7 +8,7 @@ const linkstyle={
 function Navbar() {
   return (
     <div className="sidebar" style={{borderRight: '1px solid black', padding: '20px', width: '20vw', height: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-      <h2 style={{fontSize:'30px', margin:0,padding:0,borderBottom:'1px solid black'}}>B-track</h2>
+      <h2 style={{fontSize:'30px', margin:0,padding:0,borderBottom:'2px solid black'}}>B-track</h2>
         
       <ul style={{ listStyle: 'none',display: 'flex', flexDirection: 'column',width: '10vw',gap: '20px'}}>
         <li><Link to="/"  style={linkstyle}>Home</Link></li>

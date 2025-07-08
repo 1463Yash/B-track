@@ -19,7 +19,7 @@ function Searchbar() {
       color: 'white',
       border: 'none',
       cursor: 'pointer',marginLeft:'10px'}}>Search</button>
-      <hr  style={{marginTop:'20px'}}/>
+   
       </form>
       
     </div>

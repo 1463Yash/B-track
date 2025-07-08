@@ -6,14 +6,15 @@ import Billing from './components/Billing'
 import Inventory from './components/Inventory'
 import Retailer from './components/Retailer'
 import Vendors from './components/Vendors'
-import Serachbar from './components/Serachbar'
+import Searchbar from './components/Searchbar'
+
 function App() {
   return (
     <Router>
       <div style={{ display: 'flex' , height: '100vh'}}>
         <Navbar />
-        <div style={{ marginLeft: '200px', padding: '20px', width: '100%' }}>
-          <Serachbar />
+        <div style={{ marginLeft: '0px', paddingLeft: '20px',paddingTop:'5px',paddingRight:'20px', width: '100%' }}>
+          <Searchbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/billing" element={<Billing />} />

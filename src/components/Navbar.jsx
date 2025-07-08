@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 const linkstyle={
     fontSize: '1.5rem',
     textDecoration: 'none',
-    color: 'black',
+    color:'#1589FF'
 }
 function Navbar() {
   return (
-    <div className="sidebar" style={{borderRight: '1px solid black', padding: '20px', width: '20vw', height: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-      <h2 style={{fontSize:'30px', margin:0,padding:0,borderBottom:'2px solid black'}}>B-track</h2>
+    <div className="sidebar" style={{borderRight: '1px solid #ccc', width: '20vw', height: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center',paddingTop:'20px',backgroundColor: '#f9f9f9',color:'#333333'}}>
+      <h2 style={{fontSize:'32px',color:'#2c3e50'}}>B-track</h2>
         
-      <ul style={{ listStyle: 'none',display: 'flex', flexDirection: 'column',width: '10vw',gap: '20px'}}>
+      <ul style={{ listStyle: 'none',display: 'flex', flexDirection: 'column',justifyContent: 'start', alignItems: 'start', padding: '0',fontSize: '2rem',gap:'20px',marginTop:'20px'}}>
         <li><Link to="/"  style={linkstyle}>Home</Link></li>
         <li><Link to="/Inventory" style={linkstyle}>Inventory</Link></li>
         <li><Link to="/Retailers" style={linkstyle}>Retailers</Link></li>
